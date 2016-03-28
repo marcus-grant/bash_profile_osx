@@ -1,0 +1,16 @@
+# Shell .gitignore - for OSX-based shell scripts
+# by Marcus Grant 2016-03-28 http://github.com/marcus-grant
+
+#ignore all OSX junk files
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcons.icns
+
+
+
+
