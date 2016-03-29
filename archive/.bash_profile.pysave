@@ -1,4 +1,4 @@
-
+cription:  This file holds all my BASH configurations and aliases
 #
 #  Sections:
 #  1.   Environment Configuration
@@ -163,6 +163,7 @@ EOT
          fi
     }
 
+
 #   ---------------------------
 #   4.  SEARCHING
 #   ---------------------------
@@ -322,15 +323,3 @@ function parse_git_branch
 {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-#	--------------------------
-#	My personal additions
-#	--------------------------
-alias ios="cd ~/Dev/iOS"
-alias oxp="open *.xcodeproj"
-alias oxw="open *.xcodewor"
